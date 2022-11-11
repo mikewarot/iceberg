@@ -20,16 +20,16 @@ A message includes
 - Creator ID
 - Actual bytes of content *or encrypted bytes*
 - Destination designations such as
-    Where it should go
-	  Public
-	  Friends
-	  Work
-	  other
+  - Where it should go
+	- Public
+	- Friends
+	- Work
+	- other
 - Message Signature
 	 
 	 
 Encrypted Messages include
-  -- NOT SENT - AES key
-  -- AES encrypted data
-  -- RSA encrypted copies of the AES key, one per destination
+- NOT SENT (Temporary in memory) AES key
+- AES encrypted data
+- RSA encrypted copies of the AES key, one per destination
 
