@@ -30,7 +30,7 @@ The thread that kicked this off: https://twitter.com/mikewarot/status/1591006254
 - It should federate, somehow
 - You should be able to run it at home behind a cable modem without lose of function (but not loss of speed, reliability, etc)
 - It should be as simple as is reasonable
-= It should be extensible
+- It should be extensible
   
 ## Asks
 
