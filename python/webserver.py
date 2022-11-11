@@ -1,6 +1,8 @@
 # Python 3 server example from https://pythonbasics.org/webserver/
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
+import webbrowser
+
 
 hostName = "localhost"
 serverPort = 9000
@@ -19,6 +21,11 @@ class MyServer(BaseHTTPRequestHandler):
 if __name__ == "__main__":        
     webServer = HTTPServer((hostName, serverPort), MyServer)
     print("Server started http://%s:%s" % (hostName, serverPort))
+
+    openstring = "http://%s:%s" % (hostName, serverPort)
+    webbrowser.open(openstring)
+    print("Local browser opened to %s", openstring)
+
 
     try:
         webServer.serve_forever()
