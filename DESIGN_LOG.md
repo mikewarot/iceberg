@@ -53,3 +53,10 @@ I'm using NotePad++ and GIT GUI for pushing/pulling stuff to github
   - https://palletsprojects.com/p/flask/
 - SQLAlchemy looks good for handling the database side of it
   - https://www.sqlalchemy.org/ 
+
+This does NOT work
+- https://github.com/arnu515/twitter-clone
+  - it depends on venv
+    - venv depends on running a bash script, which does NOT work on windows
+- thus I have to find something else to base things on
+- 
