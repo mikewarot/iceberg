@@ -48,5 +48,7 @@ I've got a lot of reading to do.
 For now, it's on the Windows command line, Python 3.10, and IDLE for interactive stuff
 I'm using NotePad++ and GIT GUI for pushing/pulling stuff to github
 
-Flask looks like it might be a good web framework
-SQLAlchemy looks good for handling the database side of it
+- Flask looks like it might be a good web framework
+  - https://palletsprojects.com/p/flask/
+- SQLAlchemy looks good for handling the database side of it
+  - https://www.sqlalchemy.org/ 
