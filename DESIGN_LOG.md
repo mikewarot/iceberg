@@ -43,7 +43,8 @@ in my router once I decide to test across the actual internet.
 
 It seems that SQL-lite is the way to go for local database stuff. The local Web UI is going to be one of the tricky bits
 
-I've got a lot of reading to do. 
+I've got a lot of reading to do. I'm finding that the search feature of Hacker News is
+a great resource for finding timeless advice on the choices I face
 
 For now, it's on the Windows command line, Python 3.10, and IDLE for interactive stuff
 I'm using NotePad++ and GIT GUI for pushing/pulling stuff to github
