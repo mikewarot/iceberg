@@ -33,3 +33,12 @@ Encrypted Messages include
 - AES encrypted data
 - RSA encrypted copies of the AES key, one per destination
 
+## 11/12/2022, Day 2 of 13 -- My Birthday  8)
+
+Wow... there are a ton of P2P examples out there for Python, and a lot of code for almost everything.
+This is the exact opposite of the 1980s and Turbo Pascal, where you'd have to implement everything yourself.
+
+I'm going to avoid trying to punch holes in NAT routers, stick with IPV4 for now, and manually open a port
+in my router once I decide to test across the actual internet.
+
+It seems that SQL-lite is the way to go for local database stuff. The local Web UI is going to be one of the tricky bits
